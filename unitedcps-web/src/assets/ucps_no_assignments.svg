@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#0f6db5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background card -->
+  <rect x="40" y="40" width="640" height="340" rx="24" fill="#ffffff" stroke="#9aa4b2" stroke-opacity="0.35"/>
+
+  <!-- Header -->
+  <rect x="86" y="84" width="240" height="14" rx="7" fill="#9aa4b2" opacity="0.35"/>
+  <rect x="86" y="112" width="160" height="10" rx="5" fill="#9aa4b2" opacity="0.25"/>
+
+  <!-- Kanban columns (ghost) -->
+  <g opacity="0.30">
+    <rect x="86" y="150" width="168" height="200" rx="16" fill="#9aa4b2" opacity="0.10"/>
+    <rect x="276" y="150" width="168" height="200" rx="16" fill="#9aa4b2" opacity="0.08"/>
+    <rect x="466" y="150" width="168" height="200" rx="16" fill="#9aa4b2" opacity="0.06"/>
+  </g>
+
+  <!-- Central icon: clipboard + check -->
+  <g transform="translate(360 235)">
+    <circle cx="0" cy="0" r="78" fill="none" stroke="url(#grad)" stroke-width="12" opacity="0.18"/>
+    <!-- Clipboard -->
+    <rect x="-38" y="-46" width="76" height="102" rx="14" fill="#0f6db5" opacity="0.18" stroke="#0f6db5" stroke-opacity="0.35"/>
+    <rect x="-22" y="-62" width="44" height="22" rx="10" fill="#2ecc71" opacity="0.40"/>
+    <rect x="-18" y="-14" width="48" height="10" rx="5" fill="#9aa4b2" opacity="0.45"/>
+    <rect x="-18" y="6" width="40" height="10" rx="5" fill="#9aa4b2" opacity="0.35"/>
+    <rect x="-18" y="26" width="34" height="10" rx="5" fill="#9aa4b2" opacity="0.25"/>
+
+    <!-- Check badge -->
+    <circle cx="52" cy="48" r="18" fill="url(#grad)" opacity="0.95"/>
+    <path d="M44,48 L50,54 L61,43" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Caption -->
+  <text x="360" y="360" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="18" fill="#2b2f36" opacity="0.85">
+    No assignments yet
+  </text>
+  <text x="360" y="386" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="14" fill="#9aa4b2">
+    Create a job and assign engineers when you're ready
+  </text>
+</svg>

@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import "../styles/app.css";
 
-import icon from "../assets/logo_Icon_only.png";
+import icon from "../assets/logo_icon_only.png";
 
 type Props = { children: ReactNode };
 
